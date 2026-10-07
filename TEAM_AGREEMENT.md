@@ -6,7 +6,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 | Nombre | Rol | Usuario de GitHub |
 | :--- | :--- | :--- |
 | [David Santiago Santos Amaya] | Líder (Arquitecto) | `@David-santiago-svg` |
-| [Nombre del Aprendiz 2] | Desarrollador | `@usuario2` |
+| [Nataly Velasco Navarro] | Desarrollador | `@NatalyNavarro` |
 | [Nombre del Aprendiz 3] | Desarrollador | `@usuario3` |
 
 ## 2. Canales de Comunicación
@@ -33,5 +33,5 @@ Somos profesionales en formación. Si surgen problemas, actuaremos así:
 ---
 > **Firma Digital:** La creación de este archivo y los commits asociados a él representan la firma electrónica de aceptación de todos los integrantes de este equipo.
 >David Santiago Santos Amaya
->
+>Nataly Velasco Navarro
 >
