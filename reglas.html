@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reglas y Guía de Llenado - Bitácora ADSO</title>
+</head>
+<body style="font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; margin: 20px;">
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <a href="informacion.html">Información</a> |
+    <a href="reglas.html">Reglas</a> |
+    <a href="trazabilidad.html">Bitacoras</a> |
+    <hr>
+
+    <h1><center>Plantilla control de trabajo diario ADSO</center></h1>
+
+    <h2><center>Reglas</center></h2>
+    <ol>
+        <li><strong>Responsabilidad Única (SRP):</strong> Cada fila documenta un solo evento, tarea o impedimento indivisible. Si realizó tres actividades en el día, registre tres filas independientes.</li>
+        <li><strong>Cero Adjetivos Subjetivos:</strong> Prohibido escribir "estuvo chévere", "fue difícil", "avanzamos bien". Redacte únicamente los hechos técnicos verificables.</li>
+        <li><strong>Inmutabilidad:</strong> Si un registro histórico contiene un error o cambio, no lo borre ni sobrescriba. Cree un nuevo registro con fecha actual indicando: "Corrección/Ajuste al registro ID [X]"</li>
+        <li><strong>Impedimentos:</strong> Si no presentó dificultades, escriba expresamente: "Sin impedimentos operativos".</li>
+    </ol>
+
+    <h2><center>GUÍA DE LLENADO POR COLUMNA</center></h2>
+    
+    <div align="center">
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Columna</th>
+                    <th>Descripción y Formato Esperado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ID</td>
+                    <td>Número consecutivo único para cada actividad o fila (ej. 001 002).</td>
+                </tr>
+                <tr>
+                    <td>Timestamp (YYYY-MM-DD HH:MM)</td>
+                    <td>Fecha y hora exacta en la que se registra o ejecuta la actividad (formato AAAA-MM-DD HH:MM).</td>
+                </tr>
+                <tr>
+                    <td>Autoría (Responsable)</td>
+                    <td>Nombre o iniciales del aprendiz responsable de ejecutar la actividad.</td>
+                </tr>
+                <tr>
+                    <td>Objeto Técnico (Actividad y Alcance)</td>
+                    <td>Descripción técnica objetiva verificable y concreta de lo ejecutado y su alcance real.</td>
+                </tr>
+                <tr>
+                    <td>Evidencia de Ejecución (Entregable / Enlace)</td>
+                    <td>URL del commit enlace al Pull Request captura de pantalla o documento entregable.</td>
+                </tr>
+                <tr>
+                    <td>Impedimentos / Blockers (Qué ejecutó, qué falló, qué esperaba)</td>
+                    <td>Descripción técnica del error o impedimento. Si no hubo problemas escribir: 'Sin impedimentos operativos'.</td>
+                </tr>
+                <tr>
+                    <td>Plan de Acción (Mitigación / Próxima Tarea)</td>
+                    <td>Acción correctiva tomada próxima tarea programada o paso para desbloquear la actividad.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

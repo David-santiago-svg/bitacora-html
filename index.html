@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body align="center">
+
+    <center>
+        <h1>FORMULARIO</h1>
+
+        <!--pega aqui el enlace informacion-->
+        <form action="informacion.html" method="GET">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <br /><br />
+
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required />
+            </div>
+            <br /><br />
+
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="number" id="telefono" name="telefono" />
+            </div>
+            <br /><br />
+
+            <div>
+                <label for="ciudad">Ciudad:</label>
+                <select id="ciudad" name="ciudad">
+                    <option value="">Seleccione</option>
+                    <option value="bucaramanga">Bucaramanga</option>
+                    <option value="floridablanca">Floridablanca</option>
+                    <option value="giron">Girón</option>
+                </select>
+            </div>
+            <br /><br />
+
+            <div>
+                <label>Género:</label>
+                <input type="radio" id="hombre" name="genero" value="hombre" />
+                <label for="hombre">Hombre</label>
+
+                <input type="radio" id="mujer" name="genero" value="mujer" />
+                <label for="mujer">Mujer</label>
+            </div>
+            <br /><br />
+
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+    </center>
+
+</body>
+</html>
