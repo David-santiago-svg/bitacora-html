@@ -15,7 +15,8 @@ Así quedó organizado el repositorio:
 bitacora-html/
 ├── README.md              # Este archivo
 ├── TEAM_AGREEMENT.md      # Acuerdo del equipo
-├── index.html             # Página del formulario
+├── index.html             # Página de documentación y desarrollo del proyecto
+├── formulario.html        # Página de formulario
 ├── informacion.html       # Página de información
 ├── reglas.html            # Página de reglas
 ├── trazabilidad.html      # Índice de bitácoras
@@ -150,7 +151,6 @@ Somos tres personas trabajando en esto:
 ## Tecnologías que usamos
 
 - HTML5 para la estructura
-- CSS inline para los estilos básicos
 - Git y GitHub para el control de versiones
 - Git Flow para trabajar en equipo con ramas
 
